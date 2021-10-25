@@ -130,3 +130,9 @@ a:hover {
 a:active {
   color: blue;
 }
+
+.ui-btn {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
