@@ -70,9 +70,17 @@ body {
 }
 
 body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  height: 100%;
   background-color: #000A1F;
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
+  border: #00ffff 5px;
+  border-style: solid;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 
@@ -149,6 +157,14 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 3px;
 }
 
 .hidden {
