@@ -35,7 +35,7 @@
   padding: 0;
   margin: 0px;
   font-size: 50px;
-  color: white;
+  color: #00ffff;
   padding-left: 150px;
 }
 h1 {
@@ -48,7 +48,11 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  text-align: center; 
+}
+
+.code {
+  background-color: #00ffff;
 }
 
 h3 {
@@ -66,22 +70,11 @@ body {
 }
 
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-color: #000A1F;
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -130,6 +123,7 @@ body {
   margin-top: 500px;
   flex: 0 0 50%;
   text-align: center;
+  justify-content: center;
 }
 
 .column {
