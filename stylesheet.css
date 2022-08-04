@@ -72,7 +72,7 @@ body {
 body {
   padding: 0;
   margin: 0;
-  min-height: 100vh;
+  min-height: 99vh;
   height: 100%;
   background-color: #000A1F;
   background-size: 400% 400%;
@@ -141,7 +141,7 @@ body {
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: #00f8d8;
 }
 
 /* visited link */
@@ -205,4 +205,22 @@ a:active {
   width: 100%;
   padding: 0 15px;
   box-sizing: border-box;
+}
+
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.contactheader {
+  background-color: darkcyan;
+}
+
+
+p {
+  color: gray;
 }
