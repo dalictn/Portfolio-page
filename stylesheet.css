@@ -36,6 +36,9 @@
   margin: 0px;
   font-size: 50px;
   color: #00ffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }
 h1 {
   font-weight: bold;
