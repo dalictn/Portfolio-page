@@ -30,15 +30,16 @@
 
 .username {
   text-align: center;
-  font-weight: bold;
   line-height: 20px;
   padding: 0;
   margin: 0px;
   font-size: 50px;
-  color: #00ffff;
+  color: gray;
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  font-family: auto;
+  font: revert;
 }
 h1 {
   font-weight: bold;
@@ -54,7 +55,7 @@ h2 {
 }
 
 .code {
-  background-color: #00ffff;
+  background-color: cadetblue;
 }
 
 h3 {
@@ -76,13 +77,13 @@ body {
   margin: 0;
   min-height: 99vh;
   height: 100%;
-  background-color: #000A1F;
+  background-color: rgb(30, 33, 34);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  border: #00ffff 5px;
+  border: grey 5px;
   border-style: solid;
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 
@@ -165,8 +166,10 @@ a:active {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   border-radius: 3px;
+  justify-content: space-evenly;
+  padding-right: 35px;
 }
 
 
