@@ -38,8 +38,10 @@
   display: flex;
   justify-content: center;
   padding-top: 30px;
-  font-family: auto;
+  /* font-family: auto; */
   font: revert;
+  font-weight: initial;
+  font-family: system-ui;
 }
 h1 {
   font-weight: bold;
@@ -55,7 +57,7 @@ h2 {
 }
 
 .code {
-  background-color: cadetblue;
+  color: azure;
 }
 
 h3 {
