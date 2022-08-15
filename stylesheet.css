@@ -34,7 +34,7 @@
   padding: 0;
   margin: 0px;
   font-size: 50px;
-  color: gray;
+  color: beige;
   display: flex;
   justify-content: center;
   padding-top: 30px;
@@ -57,7 +57,9 @@ h2 {
 }
 
 .code {
-  color: azure;
+  color: black;
+  align-items: right;
+  background-color: aliceblue;
 }
 
 h3 {
@@ -79,13 +81,12 @@ body {
   margin: 0;
   min-height: 99vh;
   height: 100%;
-  background-color: rgb(30, 33, 34);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  border: grey 5px;
+  background-image: url(Images/rotated.png);
+  background-size: cover;
   border-style: solid;
   overflow-y: hidden;
   overflow-x: hidden;
+  
 }
 
 
@@ -146,17 +147,17 @@ body {
 
 /* unvisited link */
 a:link {
-  color: #00f8d8;
+  color: black;
 }
 
 /* visited link */
 a:visited {
-  color: #00f8d8;
+  color: black;
 }
 
 /* mouse over link */
 a:hover {
-  color: #8900f8;
+  color: beige;
 }
 
 /* selected link */
@@ -208,9 +209,10 @@ a:active {
 
 .contact {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  text-emphasis: bold;
   
 }
 
@@ -220,5 +222,6 @@ a:active {
 
 
 p {
-  color: gray;
+  color: beige;
+  text-align: end;
 }
