@@ -81,8 +81,10 @@ body {
   margin: 0;
   min-height: 99vh;
   height: 100%;
-  background-image: url(imageedit_1_2324214365.png);
-  background-size: cover;
+  background-color: rgb(30, 33, 34);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border: grey 5px;
   border-style: solid;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -147,12 +149,12 @@ body {
 
 /* unvisited link */
 a:link {
-  color: black;
+  color: gray;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: gray;
 }
 
 /* mouse over link */
@@ -213,6 +215,7 @@ a:active {
   justify-content: center;
   align-items: center;
   text-emphasis: bold;
+  margin-top: 100px;
   
 }
 
@@ -221,7 +224,7 @@ a:active {
 }
 
 
-p {
+.matrix {
   color: beige;
   text-align: end;
 }
