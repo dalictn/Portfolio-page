@@ -17,6 +17,17 @@ p {
   margin: 0px;
 }
 
+.user {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  margin-right: 350px;
+  margin-left: 350px;
+  margin-bottom: 10px;
+  border-color: black;
+}
+
 .div {
   vertical-align: top;
   display: inline-block;
@@ -26,7 +37,7 @@ p {
 .projectimg img {
   width: 100px;
   height: 100px;
-  background-color: grey;
+  
 }
 .caption {
   display: block;
