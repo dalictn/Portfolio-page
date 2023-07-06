@@ -1,6 +1,7 @@
 
 .intro {
   font-family: "NTR",sans-serif;
+  margin-top: 175px;
 }
 
 .item {
@@ -45,5 +46,19 @@
 
 .subheading {
   font-size: 35px;
-  margin-bottom: 20px;
+}
+
+
+.subdiv {
+  margin-bottom: 50px;
+}
+
+
+.links {
+  display: flex;
+  margin-left: 275px;
+  margin-right: 275px;
+  justify-content: space-evenly;
+  align-content: center;
+  
 }
