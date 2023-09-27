@@ -27,10 +27,10 @@ body {
 
 
 .item {
-  flex: 1;
+  display: flexbox;
   padding-bottom: 15px;
   padding-right: 100px;
-  margin-right: 300px;
+
   
 }
 .item-name {
